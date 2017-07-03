@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://busker.culture.tw/yunlin -->
+<html lang="zh-Hant-TW"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="iCulture 文化部">
+    <meta name="copyright" content="街頭藝人">
+    <meta name="description" content="街頭藝人">
+    <meta property="schema:name" content=" 街頭藝人">
+    <meta property="schema:description" content="街頭藝人">
+    <meta name="X-CSRF-Token" content="e3f1759e-a7d6-4980-afe5-f19bfe153248">
+    <title> 街頭藝人</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./街頭藝人_files/bootstrap.css">
+    <link rel="stylesheet" href="./街頭藝人_files/bootstrap-dialog.min.css">
+    <link rel="stylesheet" href="./街頭藝人_files/jquery.loadmask.css">
+    <link rel="stylesheet" href="./街頭藝人_files/style.css">
+    <link rel="stylesheet" href="./街頭藝人_files/chiayi.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="./街頭藝人_files/jquery.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/jquery.backtop.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/jquery.common.extend.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/jquery.loadmask.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="./街頭藝人_files/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/bootstrap-dialog.min.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/moment.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/common.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/dialogUtil.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/cmsUtil.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/shareSocial.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/jsviews.min.js"></script>
+    <script type="text/javascript" src="./街頭藝人_files/jsviews.custom.tags.js"></script>
+
+<script type="text/javascript">
+var contextPath = '';
+    var domainName = 'yunlin';
+</script>
+</head>
+<body>
+<div id="wrapper">
+<!-- header -->
+<!--<script type="text/javascript" src="/frontend/js/common/head.js"></script>-->
+<div class="container header" id="header">
+<div class="logo"><a href="http://busker.culture.tw/"><img alt="" src="./logo-01.png" style="width: 240px;"></a><br></div>
+<p></p>
+</div>
+<!-- /.header -->
+<script type="text/javascript">
+var menuJson = [{"displayname":"前台選單","self":true,"url":"","menu":[{"self":true,"url":"/yunlin","displayname":"首頁"},{"self":true,"url":"/yunlin/cms/news","displayname":"最新公告"},{"self":true,"url":"/yunlin/cms/story","displayname":"專題報導"},{"self":true,"url":"/yunlin/performer/list","displayname":"藝人介紹"},{"self":true,"url":"/yunlin/place/list","displayname":"展演空間"}]}];
+</script>
+<script type="text/javascript" src="./街頭藝人_files/menu.js"></script>
+
+<script id="topMenuTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+<li><a href="{{:url}}" title="{{:displayname}}" {{if !self}}target="_blank"{{/if}}>{{:displayname}}</a></li>
+</script>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="defaultNavbar1">
+            <ul class="nav navbar-nav larger" id="topMenuResult" data-jsv-df=""><li data-jsv="#1_#2_"><a href="https://busker.culture.tw/yunlin" title="首頁">首頁</a></li><li data-jsv="/2_#3_"><a href="https://busker.culture.tw/yunlin/cms/news" title="最新公告">最新公告</a></li><li data-jsv="/3_#4_"><a href="https://busker.culture.tw/yunlin/cms/story" title="專題報導">專題報導</a></li><li data-jsv="/4_#5_"><a href="https://busker.culture.tw/yunlin/performer/list" title="藝人介紹">藝人介紹</a></li><li data-jsv="/5_#6_"><a href="https://busker.culture.tw/yunlin/place/list" title="展演空間">展演空間</a></li></ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav><script type="text/javascript">
+var bannerPublishUrl = 'banner';
+var bannerPublishName = '主視覺';
+var bulletinPublishUrl = 'news';
+var bulletinPublishName = '最新公告';
+var storyPublishUrl = 'story';
+var storyPublishName = '專題報導';
+</script>
+<script type="text/javascript" src="./街頭藝人_files/cms.js">
+</script>
+
+<script language="javascript">
+</script>
+
+<script type="text/javascript" src="./街頭藝人_files/banner.js"></script>
+
+<!--banner-->
+<div class="box-gray clearfix banner">
+  <!-- /.banner-->
+    <div class="thumbnail">
+        <!--<h1 class="text-center">實現藝術夢想的舞臺</h1>-->
+        <!-- index-banner -->
+        <div class="image-wrap-600">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" id="indicator"><li class="active" data-target="#myCarousel" data-slide-to="0"></li></ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox" id="bannerList"><div class="item active"><a href="https://busker.culture.tw/yunlin" target="_blank"><img src="./banner-05.png"></a></div>
+                <div class="item "><a href="https://busker.culture.tw/yunlin" target="_blank"><img src="./banner-06.png"></a></div>
+                <div class="item "><a href="https://busker.culture.tw/yunlin" target="_blank"><img src="./banner-07.png"></a></div><div class="item "><a href="https://busker.culture.tw/yunlin" target="_blank"><img src="./banner-08.png"></a></div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="container search">
+            <div class="col-md-6 col-md-offset-3 clearfix">
+      <form action="https://busker.culture.tw/yunlin/search" method="POST">
+        <div id="custom-search-input">
+          <div class="input-group col-md-12">
+            <input type="text" class="form-control" name="keyword" placeholder="輸入關鍵字.....">
+              <input type="hidden" name="X-CSRF-Token" id="X-CSRF-Token" value="e3f1759e-a7d6-4980-afe5-f19bfe153248">
+            <span class="input-group-btn">
+            <button class="btn btn-info" type="submit"> <i class="glyphicon glyphicon-search"></i> </button>
+            </span>
+          </div>
+        </div>
+      </form>            </div>
+            <div class="col-md-12 text-center margin-t-1 margin-b-1 keyword larger"><span class="hidden-xs">熱 門 :</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="./街頭藝人_files/bulletin.js"></script>
+
+<script id="bulletinTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+<li class="list"><span class="date">{{date modifyDate /}}</span><a href="{{bulletinDetailUrl contentId /}}">{{:title}}</a></li>
+</script>
+
+<!--news-->
+<div class="box-color">
+  <div class="container news">
+    <ul class="col-md-7 col-md-offset-5 margin-t-2 lage">
+      <h1><span class="font-15 block margin-b-h" id="indexNewsTitle">最新公告</span>NEWS</h1>
+      <span id="bulletinResult"><script type="jsv#20_"></script><script type="jsv#21_"></script>
+<li class="list"><span class="date">2017/04/18</span><a href="https://busker.culture.tw/yunlin/cms/news/1071">北港女兒橋─街頭藝人徵集！</a></li>
+<script type="jsv/21_"></script><script type="jsv#22_"></script>
+<li class="list"><span class="date">2017/01/05</span><a href="https://busker.culture.tw/yunlin/cms/news/29">105年雲林縣街頭藝人從事藝文活動許可證換證文件及須知</a></li>
+<script type="jsv/22_"></script><script type="jsv#23_"></script>
+<li class="list"><span class="date">2017/01/05</span><a href="https://busker.culture.tw/yunlin/cms/news/1053">「2017台灣燈會在雲林」開放街頭藝人展演受理申請</a></li>
+<script type="jsv/23_"></script><script type="jsv#24_"></script>
+<li class="list"><span class="date">2016/06/30</span><a href="https://busker.culture.tw/yunlin/cms/news/34">105年雲林縣第四屆街頭藝人徵選活動</a></li>
+<script type="jsv/24_"></script><script type="jsv#25_"></script>
+<li class="list"><span class="date">2016/06/30</span><a href="https://busker.culture.tw/yunlin/cms/news/33">105年雲林縣第四屆街頭藝人徵選活動─入選名單公告</a></li>
+<script type="jsv/25_"></script><script type="jsv/20_"></script></span>
+    </ul>
+    <div class="col-md-7 col-md-offset-5 margin-b-2">
+      <button type="button" class="btn btn-more btn-lg" id="bulletinNext">更多公告</button>
+    </div>
+  </div>
+</div>
+<!-- /.news--> <script type="text/javascript" src="./街頭藝人_files/story.js"></script>
+
+<script id="storyTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+  <div class="col-lg-6 col-md-6 story">
+    <div class="thumbnail">
+      <div class="image-wrap-350"> 
+		<img src="{{:attachmentEntity.saveUrl}}{{:attachmentEntity.name}}_thn.png" alt="{{:attachmentEntity.filename}}">
+	  </div>
+      <div class="caption lage">
+        <h3 class="margin-b-1 bold">{{:title}}</h3>
+        <p>{{storyDescription content /}}</p>
+        <p><a href="{{storyDetailUrl contentId /}}" class="btn btn-more btn-lg margin-t-1">閱讀更多</a></p>
+      </div>
+    </div>
+  </div>
+</script>
+
+<!--story-->
+<div class="container" id="storyResult"><script type="jsv#26_"></script><script type="jsv#27_"></script>
+  <div class="col-lg-6 col-md-6 story">
+    <div class="thumbnail">
+      <div class="image-wrap-350">
+		<img src="./街頭藝人_files/97631811133665b3b84ed75e6ed7c9b8_thn.png" alt="659750">
+	  </div>
+      <div class="caption lage">
+        <h3 class="margin-b-1 bold">北港女兒橋─街頭藝人徵集！</h3>
+        <p>【活動轉知】繼105年7月26日起在北港水道頭文化園區辦第一場音樂會，至今連續辦理了20多場次，民眾反應相當踴躍，當初由在地的民間社團、藝師、音樂愛好者提供的音樂展演平台，藉由活動凝聚更多對北港家鄉有....</p>
+        <p><a href="https://busker.culture.tw/yunlin/cms/story/1071" class="btn btn-more btn-lg margin-t-1">閱讀更多</a></p>
+      </div>
+    </div>
+  </div>
+<script type="jsv/27_"></script><script type="jsv#28_"></script>
+  <div class="col-lg-6 col-md-6 story">
+    <div class="thumbnail">
+      <div class="image-wrap-350">
+		<img src="./街頭藝人_files/b92652b28293d0affb40a65d0234820c_thn.png" alt="123">
+	  </div>
+      <div class="caption lage">
+        <h3 class="margin-b-1 bold">105年雲林縣第四屆街頭藝人徵選活動</h3>
+        <p>【105年雲林縣第四屆街頭藝人徵選活動】105年雲林縣第四屆街頭藝人徵選活動21上午10時在虎尾農博生態園區熱鬧登場，雖然下著綿綿細雨，仍有來自全國各地的街頭藝人齊聚在此，從21日上午10時至2日下午....</p>
+        <p><a href="https://busker.culture.tw/yunlin/cms/story/34" class="btn btn-more btn-lg margin-t-1">閱讀更多</a></p>
+      </div>
+    </div>
+  </div>
+<script type="jsv/28_"></script><script type="jsv/26_"></script></div>
+<!-- /.story--> <script type="text/javascript" src="./街頭藝人_files/buskers.js"></script>
+
+<script id="buskersTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="{{buskersDetailUrl performerId /}}" title="{{:name}}">
+			<img src="{{thumbnailImageUrl imageUrl /}}" class="img-responsive img-circle" alt="{{:name}}" onError="this.src='/busker/frontend/images/temp/busker-no-pic300X300.png'"/>
+			</a>
+		</div>
+      </div>
+</script>
+
+<!--buskers-->
+<div class="box-gray">
+  <div class="container buskers">
+    <h1 class="text-center margin-b-1"><span class="font-15 block margin-b-h">表演 ‧ 名人堂</span>BUSKERS</h1>
+    <div class="pad-row text-center clearfix" id="buskersResult"><script type="jsv#29_"></script><script type="jsv#30_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=622" title="Dance Life">
+			<img src="./街頭藝人_files/ce7c22850494901d1131d00cd33c0c65_thn.png" class="img-responsive img-circle" alt="Dance Life" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/30_"></script><script type="jsv#31_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=592" title="光昌國樂(3)">
+			<img src="./街頭藝人_files/e6cac13228a9e02c639a076793587758_thn.png" class="img-responsive img-circle" alt="光昌國樂(3)" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/31_"></script><script type="jsv#32_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=508" title="洪聰明">
+			<img src="./街頭藝人_files/243bb7c4f058535624c969de23c62ef4_thn.png" class="img-responsive img-circle" alt="洪聰明" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/32_"></script><script type="jsv#33_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=603" title="佛朗明哥姊妹舞團">
+			<img src="./街頭藝人_files/e940eeea87de15b9c00da21c15eb0166_thn.png" class="img-responsive img-circle" alt="佛朗明哥姊妹舞團" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/33_"></script><script type="jsv#34_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=482" title="劉翠華">
+			<img src="./街頭藝人_files/524317279b11aa3e65320e060b4166c2_thn.png" class="img-responsive img-circle" alt="劉翠華" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/34_"></script><script type="jsv#35_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=35" title="李新孔">
+			<img src="./街頭藝人_files/c4e0dac1cae9353837d5007293878549_thn.png" class="img-responsive img-circle" alt="李新孔" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/35_"></script><script type="jsv#36_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=510" title="張淑美">
+			<img src="./街頭藝人_files/f490a67342eaa49df41ce6892d148910_thn.png" class="img-responsive img-circle" alt="張淑美" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/36_"></script><script type="jsv#37_"></script>
+      <div class="col-md-3 col-sm-4 col-xs-6 margin-b-2">
+        <div class="pad-box">
+			<a href="https://busker.culture.tw/yunlin/performer/detail?performerId=150" title="琴深深">
+			<img src="./街頭藝人_files/42264eac61d8564083780fc8839ac7ec_thn.png" class="img-responsive img-circle" alt="琴深深" onerror="this.src=&#39;/busker/frontend/images/temp/busker-no-pic300X300.png&#39;">
+			</a>
+		</div>
+      </div>
+<script type="jsv/37_"></script><script type="jsv/29_"></script></div>
+    <div class="col-md-12 margin-t-2 margin-b-2 text-center">
+      <button type="button" class="btn btn-more btn-lg" id="buskersNext">看更多街頭藝人</button>
+    </div>
+  </div>
+</div>
+<!-- /.buskers--> <link rel="stylesheet" href="./街頭藝人_files/timeline.css">
+<script type="text/javascript" src="./街頭藝人_files/schedule.js"></script>
+
+<script id="scheduleTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+        <li class="" style="left: {{:lineLeft}}%; width: {{:lineWidth}}%; border-bottom:10px solid {{:displayColor}};">
+		<span class="ct">{{:cityName}}</span>
+          <ul>
+            <li>
+              <p class="timeline-date">{{month startDate /}}~{{month endDate /}}</p>
+              <div class="timeline-content">
+                <h3>{{:title}}</h3>
+                <p>{{:description}}</p>
+{{if uploadFile}}
+                <p><a href="{{:uploadFile.downloadUrlShort}}" target="_blank"><i class="glyphicon glyphicon-file small"></i>{{:uploadFile.displayFilename}}</a></p>
+{{/if}}
+                <p>聯絡人:{{:contactor}}</p>
+                <p>連絡電話:{{:tel}}</p>
+{{if url}}
+                <p>相關網址:<a href="{{:url}}" target="_blank"><i class="glyphicon small"></i>{{:url}}</a></p>
+{{/if}}
+              </div>
+            </li>
+          </ul>
+        </li>
+</script>
+<script id="scheduleMobileTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+        <li>
+          <p class="timeline-date">{{month startDate /}}~{{month endDate /}}</p>
+          <div class="timeline-content">
+            <h3>{{:title}}</h3>
+            <p>{{:description}}</p>
+{{if uploadFile}}
+                <p><a href="{{:uploadFile.downloadUrlShort}}" target="_blank"><i class="glyphicon glyphicon-file small"></i>{{:uploadFile.displayFilename}}</a></p>
+{{/if}}
+            <p>聯絡人:{{:contactor}}</p>
+            <p>連絡電話:{{:tel}}</p>
+{{if url}}
+                <p>相關網址:<a href="{{:url}}" target="_blank"><i class="glyphicon small"></i>{{:url}}</a></p>
+{{/if}}
+          </div>
+        </li>
+</script>
+
+<!-- schedule -->
+<div class="box-grayiron ">
+  <div class="container schedule">
+    <h1 class="text-center margin-b-1"><span class="font-15 block margin-b-h">考照行事曆</span>Schedule</h1>
+    <div class="timeline_web">
+      <div class="timeline-bg"> <span>1</span> <span>2</span> <span>3</span> <span>4</span> <span>5</span> <span>6</span> <span>7</span> <span>8</span> <span>9</span> <span>10</span> <span>11</span> <span>12</span> </div>
+      <ul class="band-members" id="scheduleResult" style="min-height:400px;" data-jsv-df=""><li data-jsv="#38_#39_" class="" style="left: 27%; width: 5%; border-bottom:10px solid #A0522D;">
+		<span class="ct">新竹縣</span>
+          <ul><li>
+              <p class="timeline-date">03/27~04/17</p>
+              <div class="timeline-content">
+                <h3>轉知：2017年桃園市街頭藝人徵選開始受理報名，報名日期自即日起至4/17止，歡迎踴躍參與。</h3>
+                <p>	
+桃園市政府文化局為推廣街頭藝術展演活動，結合生活與藝文，打造優質悠閒空間，鼓勵優秀的街頭藝術工作者活絡街頭表演場域，促使藝術文化融入民眾生活，2017桃園市街頭藝人徵選簡章及報名表詳如附件。 
+ 
+一、徵選時間：106年5月6日(星期六)，實際徵選時間以桃園市政府文化局最後公告為準。 
+ 
+二、徵選地點：桃園藝文廣場(桃園市桃園區中正路1188號) 
+ 
+三、報名期間：即日起至106年4月17日(星期一)止（以郵戳為憑），逾期恕不受理。 
+ 
+聯絡人：	李小姐 
+聯絡電話：	03-3322592分機8315</p>
+<script type="jsv#40_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-04-10/327b41c8-ba8c-4b69-bcf7-74c664ba2fda/848008bea6fead37dc90076ff96afbcd.doc" target="_blank"><i class="glyphicon glyphicon-file small"></i>106年桃園市街頭藝人徵選申請表-個人.doc</a></p>
+<script type="jsv/40_"></script>
+                <p>聯絡人:新竹縣政府文化局表演藝術科 黃小姐</p>
+                <p>連絡電話:03-5510201#305</p>
+<script type="jsv#41_"></script>
+                <p>相關網址:<a href="http://culture.tycg.gov.tw/index.jsp" target="_blank"><i class="glyphicon small"></i>http://culture.tycg.gov.tw/index.jsp</a></p>
+<script type="jsv/41_"></script>
+              </div>
+            </li></ul>
+        </li><li data-jsv="/39_#42_" class="" style="left: 30%; width: 5%; border-bottom:10px solid #FFD700;">
+		<span class="ct">臺北市</span>
+          <ul><li>
+              <p class="timeline-date">04/07~04/26</p>
+              <div class="timeline-content">
+                <h3>106年度臺北市街頭藝人審議會報名</h3>
+                <p></p>
+
+                <p>聯絡人:藝術發展科，董小姐</p>
+                <p>連絡電話:02-27208889#3531、3556</p>
+
+              </div>
+            </li></ul>
+        </li><li data-jsv="/42_#43_" class="" style="left: 36%; width: 0%; border-bottom:10px solid #FFD700;">
+		<span class="ct">臺北市</span>
+          <ul><li>
+              <p class="timeline-date">05/02~05/02</p>
+              <div class="timeline-content">
+                <h3>106年度臺北市街頭藝人審議說明會</h3>
+                <p>假萬華區艋舺龍山文創B2展演廳舉行</p>
+
+                <p>聯絡人:藝術發展科，董小姐</p>
+                <p>連絡電話:02-27208889#3531、3556</p>
+
+              </div>
+            </li></ul>
+        </li><li data-jsv="/43_#44_" class="" style="left: 38%; width: 13%; border-bottom:10px solid #6495ED;">
+		<span class="ct">臺中市</span>
+          <ul><li>
+              <p class="timeline-date">05/08~06/25</p>
+              <div class="timeline-content">
+                <h3>2017臺中市街頭藝人甄選自5月8日至6月9日開放報名，6月24及25日舉辦甄選活動</h3>
+                <p>2017臺中街頭藝人甄選輔導活動即日起開放免費報名，歡迎民眾踴躍參加。
+詳細活動時間地點請參閱臺中街頭藝人活動官網
+</p>
+<script type="jsv#45_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-05-18/2ff5cb24-a2db-4353-92f5-73fe7b3611cd/232a572501a82b6ae8feae9fb99ff304.docx" target="_blank"><i class="glyphicon glyphicon-file small"></i>1.簡章.docx</a></p>
+<script type="jsv/45_"></script>
+                <p>聯絡人:表演藝術科</p>
+                <p>連絡電話:04-22289111</p>
+<script type="jsv#46_"></script>
+                <p>相關網址:<a href="http://www.buskers-taichung.com.tw/" target="_blank"><i class="glyphicon small"></i>http://www.buskers-taichung.com.tw/</a></p>
+<script type="jsv/46_"></script>
+              </div>
+            </li></ul>
+        </li><li data-jsv="/44_#47_" class="" style="left: 39%; width: 45%; border-bottom:10px solid #6495ED;">
+		<span class="ct">臺中市</span>
+          <ul><li>
+              <p class="timeline-date">05/11~10/31</p>
+              <div class="timeline-content">
+                <h3>2017 臺中市街頭藝人證換證須知，換證自5月11日至10月31日止</h3>
+                <p>「臺中市街頭藝人藝文活動實施要點」，街頭藝人證之有效期限為二年。街頭藝人應於街頭藝人證有效期限屆滿前，依臺中市政府文化局所定期日申請換證，未完成換證程序者，期滿自動失效；街頭藝人證有效期限尚未屆滿而有遺失或毀損者，應向文化局申請補發。</p>
+<script type="jsv#48_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-05-18/2bc71e6a-a336-46c7-bcd4-5bfc24a7ac57/9148d8ab077eda42df87944dd57a5f75.doc" target="_blank"><i class="glyphicon glyphicon-file small"></i>1.換證須知.doc</a></p>
+<script type="jsv/48_"></script>
+                <p>聯絡人:表演藝術科</p>
+                <p>連絡電話:04-22289111</p>
+<script type="jsv#49_"></script>
+                <p>相關網址:<a href="http://www.buskers-taichung.com.tw/news.php" target="_blank"><i class="glyphicon small"></i>http://www.buskers-taichung.com.tw/news.php</a></p>
+<script type="jsv/49_"></script>
+              </div>
+            </li></ul>
+        </li><li data-jsv="/47_#50_" class="" style="left: 41%; width: 0%; border-bottom:10px solid #DC143C;">
+		<span class="ct">臺北市</span>
+          <ul><li>
+              <p class="timeline-date">05/20~05/21</p>
+              <div class="timeline-content">
+                <h3>106年度臺北市街頭藝人從事藝文活動展演許可審議會</h3>
+                <p>假國立國父紀念館迴廊及周邊舉行</p>
+
+                <p>聯絡人:藝術發展科，董小姐</p>
+                <p>連絡電話:02-27208889#3531、3556</p>
+
+              </div>
+            </li></ul>
+        </li><li data-jsv="/50_#51_" class="" style="left: 44%; width: 56%; border-bottom:10px solid #A0522D;">
+		<span class="ct">南投縣</span>
+          <ul><li>
+              <p class="timeline-date">06/01~12/31</p>
+              <div class="timeline-content">
+                <h3>南投縣街頭藝人換證辦法</h3>
+                <p>每月換證一次</p>
+<script type="jsv#52_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-05-26/1de97a64-5f18-4013-8f72-1d5813b2af8a/37166166df5b57bec370bb0b5c49159d.doc" target="_blank"><i class="glyphicon glyphicon-file small"></i>南投縣街頭藝人從事藝文活動許可辦法.doc</a></p>
+<script type="jsv/52_"></script>
+                <p>聯絡人:南投縣政府文化局藝術科曾先生</p>
+                <p>連絡電話:049-2231191#503</p>
+<script type="jsv#53_"></script>
+                <p>相關網址:<a href="http://www.nthcc.gov.tw/chinese/02news/01news_view.asp?sn=3964" target="_blank"><i class="glyphicon small"></i>http://www.nthcc.gov.tw/chinese/02news/01news_view.asp?sn=3964</a></p>
+<script type="jsv/53_"></script>
+              </div>
+            </li></ul>
+        </li></ul>
+      <ul class="years">
+        <li>1月</li>
+        <li>2月</li>
+        <li>3月</li>
+        <li>4月</li>
+        <li>5月</li>
+        <li>6月</li>
+        <li>7月</li>
+        <li>8月</li>
+        <li>9月</li>
+        <li>10月</li>
+        <li>11月</li>
+        <li>12月</li>
+      </ul>
+    </div>
+    <!-- mobile-->
+    <div>
+      <ul class="timeline-mobile" id="scheduleMobileResult" data-jsv-df=""><li data-jsv="#54_#55_">
+          <p class="timeline-date">03/27~04/17</p>
+          <div class="timeline-content">
+            <h3>轉知：2017年桃園市街頭藝人徵選開始受理報名，報名日期自即日起至4/17止，歡迎踴躍參與。</h3>
+            <p>	
+桃園市政府文化局為推廣街頭藝術展演活動，結合生活與藝文，打造優質悠閒空間，鼓勵優秀的街頭藝術工作者活絡街頭表演場域，促使藝術文化融入民眾生活，2017桃園市街頭藝人徵選簡章及報名表詳如附件。 
+ 
+一、徵選時間：106年5月6日(星期六)，實際徵選時間以桃園市政府文化局最後公告為準。 
+ 
+二、徵選地點：桃園藝文廣場(桃園市桃園區中正路1188號) 
+ 
+三、報名期間：即日起至106年4月17日(星期一)止（以郵戳為憑），逾期恕不受理。 
+ 
+聯絡人：	李小姐 
+聯絡電話：	03-3322592分機8315</p>
+<script type="jsv#56_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-04-10/327b41c8-ba8c-4b69-bcf7-74c664ba2fda/848008bea6fead37dc90076ff96afbcd.doc" target="_blank"><i class="glyphicon glyphicon-file small"></i>106年桃園市街頭藝人徵選申請表-個人.doc</a></p>
+<script type="jsv/56_"></script>
+            <p>聯絡人:新竹縣政府文化局表演藝術科 黃小姐</p>
+            <p>連絡電話:03-5510201#305</p>
+<script type="jsv#57_"></script>
+                <p>相關網址:<a href="http://culture.tycg.gov.tw/index.jsp" target="_blank"><i class="glyphicon small"></i>http://culture.tycg.gov.tw/index.jsp</a></p>
+<script type="jsv/57_"></script>
+          </div>
+        </li><li data-jsv="/55_#58_">
+          <p class="timeline-date">04/07~04/26</p>
+          <div class="timeline-content">
+            <h3>106年度臺北市街頭藝人審議會報名</h3>
+            <p></p>
+
+            <p>聯絡人:藝術發展科，董小姐</p>
+            <p>連絡電話:02-27208889#3531、3556</p>
+
+          </div>
+        </li><li data-jsv="/58_#59_">
+          <p class="timeline-date">05/02~05/02</p>
+          <div class="timeline-content">
+            <h3>106年度臺北市街頭藝人審議說明會</h3>
+            <p>假萬華區艋舺龍山文創B2展演廳舉行</p>
+
+            <p>聯絡人:藝術發展科，董小姐</p>
+            <p>連絡電話:02-27208889#3531、3556</p>
+
+          </div>
+        </li><li data-jsv="/59_#60_">
+          <p class="timeline-date">05/08~06/25</p>
+          <div class="timeline-content">
+            <h3>2017臺中市街頭藝人甄選自5月8日至6月9日開放報名，6月24及25日舉辦甄選活動</h3>
+            <p>2017臺中街頭藝人甄選輔導活動即日起開放免費報名，歡迎民眾踴躍參加。
+詳細活動時間地點請參閱臺中街頭藝人活動官網
+</p>
+<script type="jsv#61_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-05-18/2ff5cb24-a2db-4353-92f5-73fe7b3611cd/232a572501a82b6ae8feae9fb99ff304.docx" target="_blank"><i class="glyphicon glyphicon-file small"></i>1.簡章.docx</a></p>
+<script type="jsv/61_"></script>
+            <p>聯絡人:表演藝術科</p>
+            <p>連絡電話:04-22289111</p>
+<script type="jsv#62_"></script>
+                <p>相關網址:<a href="http://www.buskers-taichung.com.tw/" target="_blank"><i class="glyphicon small"></i>http://www.buskers-taichung.com.tw/</a></p>
+<script type="jsv/62_"></script>
+          </div>
+        </li><li data-jsv="/60_#63_">
+          <p class="timeline-date">05/11~10/31</p>
+          <div class="timeline-content">
+            <h3>2017 臺中市街頭藝人證換證須知，換證自5月11日至10月31日止</h3>
+            <p>「臺中市街頭藝人藝文活動實施要點」，街頭藝人證之有效期限為二年。街頭藝人應於街頭藝人證有效期限屆滿前，依臺中市政府文化局所定期日申請換證，未完成換證程序者，期滿自動失效；街頭藝人證有效期限尚未屆滿而有遺失或毀損者，應向文化局申請補發。</p>
+<script type="jsv#64_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-05-18/2bc71e6a-a336-46c7-bcd4-5bfc24a7ac57/9148d8ab077eda42df87944dd57a5f75.doc" target="_blank"><i class="glyphicon glyphicon-file small"></i>1.換證須知.doc</a></p>
+<script type="jsv/64_"></script>
+            <p>聯絡人:表演藝術科</p>
+            <p>連絡電話:04-22289111</p>
+<script type="jsv#65_"></script>
+                <p>相關網址:<a href="http://www.buskers-taichung.com.tw/news.php" target="_blank"><i class="glyphicon small"></i>http://www.buskers-taichung.com.tw/news.php</a></p>
+<script type="jsv/65_"></script>
+          </div>
+        </li><li data-jsv="/63_#66_">
+          <p class="timeline-date">05/20~05/21</p>
+          <div class="timeline-content">
+            <h3>106年度臺北市街頭藝人從事藝文活動展演許可審議會</h3>
+            <p>假國立國父紀念館迴廊及周邊舉行</p>
+
+            <p>聯絡人:藝術發展科，董小姐</p>
+            <p>連絡電話:02-27208889#3531、3556</p>
+
+          </div>
+        </li><li data-jsv="/66_#67_">
+          <p class="timeline-date">06/01~12/31</p>
+          <div class="timeline-content">
+            <h3>南投縣街頭藝人換證辦法</h3>
+            <p>每月換證一次</p>
+<script type="jsv#68_"></script>
+                <p><a href="https://busker.culture.tw/c_upload_busker/performer/schedule/file/2017-05-26/1de97a64-5f18-4013-8f72-1d5813b2af8a/37166166df5b57bec370bb0b5c49159d.doc" target="_blank"><i class="glyphicon glyphicon-file small"></i>南投縣街頭藝人從事藝文活動許可辦法.doc</a></p>
+<script type="jsv/68_"></script>
+            <p>聯絡人:南投縣政府文化局藝術科曾先生</p>
+            <p>連絡電話:049-2231191#503</p>
+<script type="jsv#69_"></script>
+                <p>相關網址:<a href="http://www.nthcc.gov.tw/chinese/02news/01news_view.asp?sn=3964" target="_blank"><i class="glyphicon small"></i>http://www.nthcc.gov.tw/chinese/02news/01news_view.asp?sn=3964</a></p>
+<script type="jsv/69_"></script>
+          </div>
+        </li></ul>
+    </div>
+    <!-- /.mobile--> 
+  </div>
+</div>
+<!-- /.schedule --> </div>
+
+<script id="bottomMenuTmpl" type="text/x-jsrender" data-jsv-tmpl="jsvTmpl">
+{{for menus}}
+
+{{if #index === 0}}
+            <div class="col-xs-3">
+                <ul class="list-unstyled">
+					<li><a href="{{:url}}" title="{{:displayname}}">{{:displayname}}</a></li>
+
+{{else (#index+1)%3 === 0}}
+					<li><a href="{{:url}}" title="{{:displayname}}">{{:displayname}}</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-3">
+                <ul class="list-unstyled">
+{{else}}
+                    <li><a href="{{:url}}" title="{{:displayname}}">{{:displayname}}</a></li>
+{{/if}}
+
+{{if #index+1 === #get("array").data.length}}
+                </ul>
+            </div>
+{{/if}}
+
+{{/for}}
+</script>
+
+<!-- site -->
+<div class="margin-b-2 site larger hidden-xs">
+    <div class="container">
+        <div class="row clearfix">
+        	<span id="bottomMenuResult"><script type="jsv#7_"></script>
+<script type="jsv#8_"></script><script type="jsv#9_"></script>
+
+<script type="jsv#10_"></script>
+            <div class="col-xs-3">
+                <ul class="list-unstyled"><li><a href="https://busker.culture.tw/yunlin" title="首頁">首頁</a></li><li data-jsv="/10_/9_#11_#12_"><a href="https://busker.culture.tw/yunlin/cms/news" title="最新公告">最新公告</a></li><li data-jsv="/12_/11_#13_#14_"><a href="https://busker.culture.tw/yunlin/cms/story" title="專題報導">專題報導</a></li></ul>
+            </div>
+            <div class="col-xs-3">
+                <ul class="list-unstyled" data-jsv-df=""><li data-jsv="/14_/13_#15_#16_"><a href="https://busker.culture.tw/yunlin/performer/list" title="藝人介紹">藝人介紹</a></li><li data-jsv="/16_/15_#17_#18_"><a href="https://busker.culture.tw/yunlin/place/list" title="展演空間">展演空間</a></li></ul>
+            </div>
+<script type="jsv/19_"></script>
+
+<script type="jsv/17_"></script><script type="jsv/8_"></script>
+<script type="jsv/7_"></script></span>
+            <div class="col-xs-3">
+                <div class="social margin-t-30">
+                    <ul class="list-unstyled list-inline">
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.site --><p id="back-top" style="display: none;"><a href="https://busker.culture.tw/yunlin#top"><span>回上方</span></a></p>
+<!-- copyright-->
+<!--<script type="text/javascript" src="/frontend/js/common/footer.js"></script>-->
+<div class="container copy" id="copyright">
+<div class="row">        <div class="text-center col-md-10 col-md-offset-1">            <div class="footer-logo  clearfix"><a href="http://cloud.culture.tw/" target="_blank">                <div class="col-md-6 col-sm-6 iculture" title="文化部 iCulture"><span>文化部 iCulture</span></div>            </a><a href="http://www.ylccb.gov.tw/">                <div class="col-md-6 col-sm-6 city"><img src="./街頭藝人_files/logo-yunlin.png" width="250" height="75" alt="雲林縣政府文化處"></div>            </a></div>            <p>Copyright © 2016 雲林縣政府文化處 版權所有<br></p>            <p>地址：雲林縣斗六市大學路三段310號</p><p>客服電話：文化處表演藝術科，張佳皓先生，05-5523166</p>            <p><a href="http://busker.culture.tw/yunlin/cms/policy/31" target="_blank">隱私權及安全政策宣示</a> | <a href="http://busker.culture.tw/yunlin/cms/policy/32" target="_blank">著作權聲明</a></p>        </div>    </div>
+    <div class="text-center"><span>瀏覽人數: 11547</span></div>
+
+</div>
+<!-- /.copyright -->
+</body></html>
